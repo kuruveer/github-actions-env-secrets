@@ -9,6 +9,8 @@ router.get('/', async (req, res) => {
   res.json({ events: allEvents });
 });
 
+
+
 router.post('/', async (req, res) => {
   const eventData = req.body;
   const result = await db.collection('events').insertOne({...eventData});
