@@ -11,7 +11,7 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.ntrwp.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: betaserver.r4jiavg.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
